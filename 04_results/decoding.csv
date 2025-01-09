@@ -1,0 +1,141 @@
+model,mode,language,strategy,accuracy
+google__gemma-2-9b-it,normal,de,BS,0.7570394207562349
+meta-llama__Llama-3.1-8B-Instruct,normal,de,BS,0.5663716814159292
+google__gemma-2-9b-it,normal,de,DBS,0.7385358004827032
+meta-llama__Llama-3.1-8B-Instruct,normal,de,DBS,0.5703942075623492
+google__gemma-2-9b-it,normal,de,T (0.1),0.7433628318584071
+meta-llama__Llama-3.1-8B-Instruct,normal,de,T (0.1),0.5760257441673371
+google__gemma-2-9b-it,normal,de,T (0.7),0.6991150442477876
+meta-llama__Llama-3.1-8B-Instruct,normal,de,T (0.7),0.5261464199517297
+google__gemma-2-9b-it,normal,de,Top-$k$,0.6500402252614642
+meta-llama__Llama-3.1-8B-Instruct,normal,de,Top-$k$,0.43684633950120677
+google__gemma-2-9b-it,normal,de,Top-$p$,0.7345132743362832
+meta-llama__Llama-3.1-8B-Instruct,normal,de,Top-$p$,0.5728077232502011
+google__gemma-2-9b-it,normal,en,BS,0.7868061142397426
+meta-llama__Llama-3.1-8B-Instruct,normal,en,BS,0.7666934835076428
+google__gemma-2-9b-it,normal,en,DBS,0.7811745776347546
+meta-llama__Llama-3.1-8B-Instruct,normal,en,DBS,0.7433628318584071
+google__gemma-2-9b-it,normal,en,T (0.1),0.7851971037811746
+meta-llama__Llama-3.1-8B-Instruct,normal,en,T (0.1),0.7642799678197908
+google__gemma-2-9b-it,normal,en,T (0.7),0.7634754625905068
+meta-llama__Llama-3.1-8B-Instruct,normal,en,T (0.7),0.6950925181013676
+google__gemma-2-9b-it,normal,en,Top-$k$,0.7224456958970233
+meta-llama__Llama-3.1-8B-Instruct,normal,en,Top-$k$,0.6790024135156878
+google__gemma-2-9b-it,normal,en,Top-$p$,0.7876106194690266
+meta-llama__Llama-3.1-8B-Instruct,normal,en,Top-$p$,0.7586484312148029
+google__gemma-2-9b-it,normal,sw,BS,0.6251005631536605
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,BS,0.4014481094127112
+google__gemma-2-9b-it,normal,sw,DBS,0.6146419951729686
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,DBS,0.3668543845534996
+google__gemma-2-9b-it,normal,sw,T (0.1),0.6178600160901045
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,T (0.1),0.3403057119871279
+google__gemma-2-9b-it,normal,sw,T (0.7),0.581657280772325
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,T (0.7),0.28881737731295254
+google__gemma-2-9b-it,normal,sw,Top-$k$,0.5358004827031375
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,Top-$k$,0.2670957361222848
+google__gemma-2-9b-it,normal,sw,Top-$p$,0.6251005631536605
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,Top-$p$,0.335478680611424
+google__gemma-2-9b-it,normal,te,BS,0.4915526950925181
+meta-llama__Llama-3.1-8B-Instruct,normal,te,BS,0.09332260659694289
+google__gemma-2-9b-it,normal,te,DBS,0.47948511665325827
+meta-llama__Llama-3.1-8B-Instruct,normal,te,DBS,0.09654062751407884
+google__gemma-2-9b-it,normal,te,T (0.1),0.4827031375703942
+meta-llama__Llama-3.1-8B-Instruct,normal,te,T (0.1),0.09090909090909091
+google__gemma-2-9b-it,normal,te,T (0.7),0.4666130329847144
+meta-llama__Llama-3.1-8B-Instruct,normal,te,T (0.7),0.09573612228479485
+google__gemma-2-9b-it,normal,te,Top-$k$,0.413515687851971
+meta-llama__Llama-3.1-8B-Instruct,normal,te,Top-$k$,0.0925181013676589
+google__gemma-2-9b-it,normal,te,Top-$p$,0.48511665325824616
+meta-llama__Llama-3.1-8B-Instruct,normal,te,Top-$p$,0.09412711182622686
+google__gemma-2-9b-it,normal,zh,BS,0.5534995977473853
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,BS,0.4505229283990346
+google__gemma-2-9b-it,normal,zh,DBS,0.5583266291230893
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,DBS,0.415929203539823
+google__gemma-2-9b-it,normal,zh,T (0.1),0.5374094931617055
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,T (0.1),0.4231697506033789
+google__gemma-2-9b-it,normal,zh,T (0.7),0.5092518101367659
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,T (0.7),0.39501206757843926
+google__gemma-2-9b-it,normal,zh,Top-$k$,0.46098149637972646
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,Top-$k$,0.3797264682220434
+google__gemma-2-9b-it,normal,zh,Top-$p$,0.5358004827031375
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,Top-$p$,0.4239742558326629
+google__gemma-2-9b-it,adversarial,de,BS,0.6307320997586484
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,BS,0.40386162510056317
+google__gemma-2-9b-it,adversarial,de,DBS,0.6259050683829445
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,DBS,0.3805309734513274
+google__gemma-2-9b-it,adversarial,de,T (0.1),0.6178600160901045
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,T (0.1),0.3692679002413516
+google__gemma-2-9b-it,adversarial,de,T (0.7),0.5430410297666934
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,T (0.7),0.2936444086886565
+google__gemma-2-9b-it,adversarial,de,Top-$k$,0.4883346741753821
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,Top-$k$,0.23974255832662913
+google__gemma-2-9b-it,adversarial,de,Top-$p$,0.6114239742558326
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,Top-$p$,0.36283185840707965
+google__gemma-2-9b-it,adversarial,en,BS,0.6106194690265486
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,BS,0.6299275945293644
+google__gemma-2-9b-it,adversarial,en,DBS,0.6331456154465004
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,DBS,0.580048270313757
+google__gemma-2-9b-it,adversarial,en,T (0.1),0.6532582461786002
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,T (0.1),0.5575221238938053
+google__gemma-2-9b-it,adversarial,en,T (0.7),0.5760257441673371
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,T (0.7),0.5156878519710378
+google__gemma-2-9b-it,adversarial,en,Top-$k$,0.5575221238938053
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,Top-$k$,0.46259050683829445
+google__gemma-2-9b-it,adversarial,en,Top-$p$,0.6596942880128721
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,Top-$p$,0.5599356395816573
+google__gemma-2-9b-it,adversarial,sw,BS,0.5189058728881738
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,BS,0.27031375703942073
+google__gemma-2-9b-it,adversarial,sw,DBS,0.5108608205953339
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,DBS,0.22928399034593724
+google__gemma-2-9b-it,adversarial,sw,T (0.1),0.5092518101367659
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,T (0.1),0.1914722445695897
+google__gemma-2-9b-it,adversarial,sw,T (0.7),0.4424778761061947
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,T (0.7),0.1423974255832663
+google__gemma-2-9b-it,adversarial,sw,Top-$k$,0.39420756234915527
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,Top-$k$,0.1255028157683025
+google__gemma-2-9b-it,adversarial,sw,Top-$p$,0.4923572003218021
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,Top-$p$,0.19710378117457764
+google__gemma-2-9b-it,adversarial,te,BS,0.40386162510056317
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,BS,0.03378921962992759
+google__gemma-2-9b-it,adversarial,te,DBS,0.39823008849557523
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,DBS,0.04022526146419952
+google__gemma-2-9b-it,adversarial,te,T (0.1),0.37811745776347544
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,T (0.1),0.030571198712791632
+google__gemma-2-9b-it,adversarial,te,T (0.7),0.33226065969428803
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,T (0.7),0.03781174577634755
+google__gemma-2-9b-it,adversarial,te,Top-$k$,0.28720836685438456
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,Top-$k$,0.036202735317779566
+google__gemma-2-9b-it,adversarial,te,Top-$p$,0.37650844730490746
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,Top-$p$,0.029766693483507644
+google__gemma-2-9b-it,adversarial,zh,BS,0.4561544650040225
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,BS,0.31295253419147223
+google__gemma-2-9b-it,adversarial,zh,DBS,0.4497184231697506
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,DBS,0.27674979887369267
+google__gemma-2-9b-it,adversarial,zh,T (0.1),0.4344328238133548
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,T (0.1),0.28881737731295254
+google__gemma-2-9b-it,adversarial,zh,T (0.7),0.37570394207562346
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,T (0.7),0.2670957361222848
+google__gemma-2-9b-it,adversarial,zh,Top-$k$,0.33789219629927597
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,Top-$k$,0.251005631536605
+google__gemma-2-9b-it,adversarial,zh,Top-$p$,0.43845534995977475
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,Top-$p$,0.2751407884151247
+google__gemma-2-9b-it,normal,de,Greedy,0.7409493161705552
+google__gemma-2-9b-it,normal,en,Greedy,0.7795655671761866
+google__gemma-2-9b-it,normal,sw,Greedy,0.6218825422365245
+google__gemma-2-9b-it,normal,zh,Greedy,0.5325824617860017
+google__gemma-2-9b-it,normal,te,Greedy,0.48431214802896216
+meta-llama__Llama-3.1-8B-Instruct,normal,de,Greedy,0.581657280772325
+meta-llama__Llama-3.1-8B-Instruct,normal,en,Greedy,0.7642799678197908
+meta-llama__Llama-3.1-8B-Instruct,normal,sw,Greedy,0.333869670152856
+meta-llama__Llama-3.1-8B-Instruct,normal,zh,Greedy,0.40627514078841515
+meta-llama__Llama-3.1-8B-Instruct,normal,te,Greedy,0.0917135961383749
+google__gemma-2-9b-it,adversarial,de,Greedy,0.6082059533386966
+google__gemma-2-9b-it,adversarial,en,Greedy,0.6460176991150443
+google__gemma-2-9b-it,adversarial,sw,Greedy,0.49637972646822204
+google__gemma-2-9b-it,adversarial,zh,Greedy,0.4336283185840708
+google__gemma-2-9b-it,adversarial,te,Greedy,0.36444086886564764
+meta-llama__Llama-3.1-8B-Instruct,adversarial,de,Greedy,0.37650844730490746
+meta-llama__Llama-3.1-8B-Instruct,adversarial,en,Greedy,0.5615446500402252
+meta-llama__Llama-3.1-8B-Instruct,adversarial,sw,Greedy,0.19710378117457764
+meta-llama__Llama-3.1-8B-Instruct,adversarial,zh,Greedy,0.27835880933226065
+meta-llama__Llama-3.1-8B-Instruct,adversarial,te,Greedy,0.03378921962992759

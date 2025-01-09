@@ -1,0 +1,16 @@
+conda create -n thesis
+conda activate thesis
+
+# Release 0.4.5 
+git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
+
+cd lm-evaluation-harness
+
+conda install pip
+
+conda install python=3.12
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+pip install -e .
+

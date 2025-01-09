@@ -1,0 +1,57 @@
+tag:
+  - math_word_problems
+task: gsm-fair-de
+
+# Location of the files. 
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files: 
+        test: /home/obehre/gsm-eval/01_dataset/test_normal/test-normal-de.jsonl
+        train: /home/obehre/gsm-eval/01_dataset/train/train-de.jsonl
+
+# Splits:
+training_split: train # Not really needed here.
+fewshot_split: train # Where should the fewshot samples come from?
+test_split: test # Actual "questions" used for benchmarking.
+
+output_type: generate_until # Type of the output wanted by the model. Another option would be e.g. multiple choice.
+doc_to_text: "Frage: {{question}}\nAntwort:"  # How the data from the test set it "presented" to the model. 
+doc_to_target: "{{answer}}" # Defines correct answer in the test dataset.
+
+metric_list:
+  - metric: exact_match # Answer needs to be the same as the answer in the test set (after applying the filters further down).
+    aggregation: mean # Overall score is just the mean of all evaluations.
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: false
+    regexes_to_ignore:
+      - ","
+      - "\\$"
+      - "(?s).*#### "
+      - "\\.$"
+generation_kwargs:
+  until:
+    - "Frage:"
+    - "</s>"
+    - "<|im_end|>"
+    - "<|eot_id|>"
+    - "<eos>"
+  do_sample: false # Deterministic
+  temperature: 0.0 # Greedy
+repeats: 1 # Only evaluate once
+num_fewshot: 5 # Number of fewshots used before asking the "real question"
+filter_list:
+  - name: "strict-match" # The number after "####" is the answer
+    filter:
+      - function: "regex"
+        regex_pattern: "#### (\\-?[0-9\\.\\,]+)"
+      - function: "take_first"
+  - name: "flexible-extract"
+    filter:
+      - function: "regex" 
+        group_select: -1
+        regex_pattern: "(-?[$0-9.,]{2,})|(-?[0-9]+)"
+      - function: "take_first" # The first result matching the pattern is used.
+metadata:
+  version: 3.0
