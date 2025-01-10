@@ -25,7 +25,7 @@ It includes all selected models used in this thesis.
 ## Dataset
 
 The novel **MultiGSM-Adv** dataset is located in the [`01_dataset/`](01_dataset/) folder.  
-This dataset is designed to test LLMs on adversarial math word problems in multiple languages.
+This dataset is designed to test LLMs on adversarial math word problems in multiple languages. It translates [**GSM8k**](https://github.com/openai/grade-school-math) and [**GSM-Adv**](https://github.com/him1411/problemathic/tree/main) into eleven selected languages.
 
 ## Benchmarking
 
@@ -42,7 +42,7 @@ All benchmarking scripts based on are uploaded in the [`03_benchmarking/`](03_be
 ### Results
 
 - Summarized results as CSV files: [`04_results/`](04_results/)  
-- Raw output from `lm-eval`: [`99_archive_resultjsons/`](99_archive_resultjsons/)
+- Raw output from `lm-eval`: [`99_archive_resultsjsons/`](99_archive_resultjsons/)
 
 The archived JSONs contain the unprocessed evaluation metrics from each run.
 
